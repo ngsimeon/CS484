@@ -27,7 +27,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_69F1DCDEF9E14A35B94A014200CB083D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_83CF0178CDA64E68A276043EFE68421F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_961E5CD86C3D4AA3911D368A60F2D06D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -112,6 +124,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -154,10 +174,50 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69F1DCDEF9E14A35B94A014200CB083D"
+            {
+            "SourcePath" = "8:C:\\Panda3D-1.10.4.1-x64\\bin\\libp3dtoolconfig.dll"
+            "TargetName" = "8:libp3dtoolconfig.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_E40E5D6183314E178C01838AD2161445"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83CF0178CDA64E68A276043EFE68421F"
             {
             "SourcePath" = "8:C:\\Panda3D-1.10.4.1-x64\\include\\pandaFramework.h"
             "TargetName" = "8:pandaFramework.h"
+            "Tag" = "8:"
+            "Folder" = "8:_E40E5D6183314E178C01838AD2161445"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_961E5CD86C3D4AA3911D368A60F2D06D"
+            {
+            "SourcePath" = "8:C:\\Panda3D-1.10.4.1-x64\\bin\\libpandaexpress.dll"
+            "TargetName" = "8:libpandaexpress.dll"
             "Tag" = "8:"
             "Folder" = "8:_E40E5D6183314E178C01838AD2161445"
             "Condition" = "8:"
@@ -860,7 +920,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_10FF62F46A9E492DA05E10E7B0F4DDB5"
             {
-            "SourcePath" = "8:..\\x64\\Debug\\Homework0.exe"
+            "SourcePath" = "8:..\\x64\\Release\\Homework0.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E40E5D6183314E178C01838AD2161445"
