@@ -39,6 +39,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_934D0805190B45CA9636E61E5B95F5F1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_961E5CD86C3D4AA3911D368A60F2D06D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -214,6 +220,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_934D0805190B45CA9636E61E5B95F5F1"
+            {
+            "SourcePath" = "8:C:\\Panda3D-1.10.4.1-x64\\bin\\cg.dll"
+            "TargetName" = "8:cg.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_E40E5D6183314E178C01838AD2161445"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_961E5CD86C3D4AA3911D368A60F2D06D"
             {
             "SourcePath" = "8:C:\\Panda3D-1.10.4.1-x64\\bin\\libpandaexpress.dll"
@@ -371,7 +397,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:setup"
         "ProductCode" = "8:{3A19AA13-2846-457E-98CD-8D5E8D3D0006}"
-        "PackageCode" = "8:{B251E3DF-3F92-4435-B95C-1D03075C9335}"
+        "PackageCode" = "8:{9E48C76F-A410-4613-873C-EC630D4D378E}"
         "UpgradeCode" = "8:{D5C15C33-F534-4A8A-976F-0B2DE7760A1D}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
